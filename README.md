@@ -1,51 +1,34 @@
-🕸️ Scraper de Sites em Ruby
-Um projeto simples e funcional de Web Scraping utilizando Ruby, Sinatra, Nokogiri e HTTParty. Com esta ferramenta, é possível extrair conteúdos específicos de páginas web através de seletores CSS.
+# 🕸️ Web Scraper 
 
-🚀 Como funciona
-O projeto utiliza um formulário web onde o usuário insere a URL do site alvo e a classe CSS do elemento que deseja capturar. O backend processa a requisição, realiza a raspagem e retorna o conteúdo formatado em um painel estilo "Terminal Hacker".
+<div align="center">
+  <img src="https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white" />
+  <img src="https://img.shields.io/badge/Sinatra-000000?style=for-the-badge&logo=sinatra&logoColor=white" />
+  <img src="https://img.shields.io/badge/Nokogiri-333333?style=for-the-badge&logo=nokogiri&logoColor=white" />
+</div>
 
-🛠️ Tecnologias Utilizadas
-Ruby: Linguagem principal.
+---
 
-Sinatra: Framework web minimalista.
+## 💡 Sobre o Projeto
+Este é um **Web Scraper** minimalista desenvolvido com Ruby. O objetivo é permitir que o usuário insira uma URL e uma classe CSS para extrair dados específicos de páginas web, exibindo o resultado em uma interface com temática *Retro/Hacker Terminal*.
 
-Nokogiri: Parser de HTML/XML.
+> **Nota:** Este projeto foi criado com fins educacionais para explorar como o HTTP e o processamento de DOM funcionam.
 
-HTTParty: Cliente HTTP para requisições.
+---
 
-CSS: Estilização temática personalizada.
+## 🛠️ Tecnologias
+* **Back-end:** Ruby + Sinatra (Framework Web).
+* **Processamento:** Nokogiri (Parser de HTML) e HTTParty.
+* **Front-end:** HTML5, ERB (Embedded Ruby) e CSS puro.
+* **Estilo:** Tema inspirado em terminais clássicos (Monocromático Verde/Preto).
 
-⚙️ Pré-requisitos
-Certifique-se de ter o Ruby instalado em sua máquina e execute:
+---
 
-Bash
-gem install sinatra httparty nokogiri byebug
-🚀 Como rodar o projeto
-Clone este repositório:
+## 🚀 Como Executar
 
-Bash
-git clone [https://github.com/alisson-mendes-dev/scraper_ruby.git]
-Entre na pasta do projeto:
+### Pré-requisitos
+Certifique-se de ter o Ruby instalado em sua máquina.
 
-Bash
-cd learnScrapingRuby
-Inicie o servidor:
-
-Bash
-ruby app.rb
-Acesse no seu navegador: http://localhost:4567
-
-💡 Como usar
-Insira a URL completa (ex: https://g1.globo.com).
-
-Digite a classe CSS do elemento desejado (ex: .feed-post-link).
-
-Clique em "Extrair Conteúdo" e veja o resultado na caixa de terminal.
-
-Dicas de Aprendizado
-Para entender como essa comunicação entre o seu formulário e o servidor funciona, observe o fluxo de dados no diagrama abaixo:
-
-📝 Observações
-Este é um projeto simples. Sites que dependem fortemente de JavaScript (como o YouTube) podem não retornar o conteúdo esperado com este scraper simples.
-
-Respeite os termos de serviço e o robots.txt dos sites que você pretende explorar.
+### Instalação
+1. Clone este repositório:
+   ```bash
+   git clone [https://github.com/alisson-mendes-dev/scraper_ruby.git]
