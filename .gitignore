@@ -1,0 +1,16 @@
+# Pastas de dependências
+.bundle/
+vendor/
+
+# Arquivos gerados pelo Ruby
+Gemfile.lock
+
+# Logs e arquivos de sistema
+*.log
+*.tmp
+.DS_Store
+*.db
+
+# Pastas de ambiente de desenvolvimento
+.byebug_history
+.env

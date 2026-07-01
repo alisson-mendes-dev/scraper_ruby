@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="/style.css">
+  <title>Scraper Simples</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Scraper de Sites</h1>
+    
+    <form action="/scrape" method="POST">
+      <input type="text" name="url" placeholder="URL (ex: https://g1.globo.com)" required>
+      <input type="text" name="classe" placeholder="Classe CSS (ex: .feed-post-link)" required>
+      <button type="submit">Extrair Conteúdo</button>
+    </form>
+
+    <% if @resultado %>
+      <h3>Resultado:</h3>
+      <pre><%= @resultado %></pre>
+    <% end %>
+  </div>
+</body>
+</html>
